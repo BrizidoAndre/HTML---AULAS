@@ -9,33 +9,44 @@
         #cabecalho {
             /* flex container pai */
             display: flex;
-            justify-content: space-between;
+            justify-content: flex-start;
             background-color: black;
         }
         #menu {
             align-items: center;
         }
         #cabecalho a {
+            /*flex container filhos */
             color: #ffffff;
             text-decoration: none;
-            margin-right: 5px;
+            margin-right: 5pc;
+        }
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p {
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+        }
+        * {
+            border: dotted cyan;
         }
     </style>    
+</head>
+<body>
+    <header>
         <div id="cabecalho">
-            <img src="C:\Users\tec\Downloads\logotipo-gamer.png" alt="Logotipo Aqui">
+            <img src="C:\Users\51910007811\Desktop\Nova pasta\HTML---AULAS\Img\logotipo-gamer.png" alt="Logotipo">
 
-            <div id="menu">
+            <nav id="menu">
             <a href="inicio.html">Início</a>
             <a href="Jogadores.html">Jogadores</a>
             <a href="Equipes.html">Equipes</a>
             <a href="Login.html">Login</a>
-            </div>
+            </nav>
 
         </div>
-    <h1>HTML básico - códigos <br>HTML</h1>
-    <h3>Aprenda os princípios básicos para confecção de um site em HTML para que voçê possa fazer o seu primeiro site.</h3>
-</head>
-<body>
+    </header>
     <h2>Motivação</h2>
     <p>HTML (abreviação de Hypertext Markup Language) é uma linguagem de marcação utilizada na estruturação de páginas web. Sua sintaxe é bastante simples e, <br>assim como a XML é baseada em tags que representam os diversos elementos de uma página como imagens e links.</p>
     <p>Ao acessar uma página WEB através de um navegador ele é capaz de interpretar o código HTML e renderizá-lo de forma commpreensível para o usuário final </p>
